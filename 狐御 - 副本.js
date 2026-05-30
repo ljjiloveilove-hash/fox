@@ -2381,5 +2381,3 @@
   else { const ck = setInterval(() => { if (typeof SillyTavern !== 'undefined') { clearInterval(ck); init(); } }, 500); }
   log('📦 脚本加载完成');
 })();
-
-export default CONFIG;
